@@ -45,6 +45,9 @@ $navbar-default-bg: #4D4DFF;
 }
 
 
+.decription{ 
+    margin-top: 0;
+}
 
 .footer{ 
     margin-top: 45px;
@@ -60,7 +63,9 @@ $navbar-default-bg: #4D4DFF;
 .btn-primary{ 
     border-color: white;
 }
-
+.article-actions{
+    padding-top: 5px;
+}
 .footer small{ 
     float: left;
 } 
