@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
   get 'about', to: 'pages#about'
-  
+  get 'signup', to: 'users#new'
+  post 'users', to: 'users#create'
   resources :articles
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
